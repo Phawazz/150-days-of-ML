@@ -1,2 +1,2 @@
 # 150-days-of-ML
-150 consecutive days of deliberate Machine Learning practice, research, engineering, and reflection. Building the habit alongside the portfolio.
+This repository documents my ongoing journey in Machine Learning & AI. Rather than showcasing only polished projects, it focuses on the daily process of learning, building, debugging, reading, researching, reflecting, and shipping projects across classical machine learning, deep learning, MLOps, and applied AI. Walk with me.
