@@ -1,2 +1,5 @@
 # 150-days-of-ML
 This repository documents my ongoing journey in Machine Learning & AI. Rather than showcasing only polished projects, it focuses on the daily process of learning, building, debugging, reading, researching, reflecting, and shipping projects across classical machine learning, deep learning, MLOps, and applied AI. Walk with me.
+
+## Day 001
+Over the past four hours, I went from being uncertain about how to frame [HyperSense](https://github.com/Phawazz/HyperSense) in a methodologically rigorous way to developing a clear roadmap from its current state to a submission-ready abstract. The project is now structured into three sequential phases: Transportability, Regional Adaptation, and Clinical Enrichment. With the overall direction now established, Stage 1 (Transportability) begins tomorrow.
