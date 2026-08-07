@@ -10,3 +10,6 @@ I spent the past 3+ hours reviewing similar literature on studies where machine 
 Another paper that stood out to me was [this study](https://www.sciencepublishinggroup.com/article/10.11648/j.ajmcm.20170202.12), published in 2016. It used decision tree algorithms (C4.5 and ID3) to predict hypertension using an almost unbelievable dataset of just 32 samples, and also introduced me to older approaches such as fuzzy logic systems. Reading it made me appreciate just how far AI/ML has come over the past decade, and it also made me excited about what the next 10 years might look like.
 
 This quick review of the literature was necessary before beginning Stage 1 of **HyperSense** because I wanted to ensure that I wasn't making avoidable methodological mistakes before moving forward.
+
+## Day 003
+I officially started the full technical phase of HyperSense Phase 2 today (night actually). I set up the dedicated transportability notebook, secured the REMAH dataset locally, loaded and inspected the Nigerian cohort, and began systematically examining its variables and coding. I think I've made a solid start on the Ghana → Nigeria transportability analysis. Work continues on it tomorrow (I have less than 7 days to complete all the technical work for this abstract).
