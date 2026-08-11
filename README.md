@@ -25,3 +25,9 @@ I was exposed to DL architectures such as multilayer perceptrons (MLPs), CNNs, R
 
 ## Day 006
 Day 006 turned out to be a very low-output day due to some resons. However, I managed to start work on the second phase of my ongoing project. I began the regional adaptation stage by pooling the original Ghanaian training data with harmonized Nigerian data while keeping the feature set fixed and carefully checking the resulting source and outcome composition before model development.
+
+## Day 007
+
+I continued the regional adaptation stage of HyperSense Phase 2 today by developing the pooled Ghana–Nigeria baseline model. After fixing the six-feature modelling set and confirming the training/test outcome composition, I trained an XGBoost classifier on the pooled training data and evaluated it on the held-out test set. I assessed overall discrimination and classification performance, followed by separate Ghanaian and Nigerian evaluations to examine regional heterogeneity. The results showed a substantial difference in sensitivity between the two populations, which raised an important methodological issue that I need to investigate deeply before proceeding any further.
+
+I also spent some time understanding **model calibration** more rigorously rather than treating it as just another evaluation metric. In particular, I now have a much clearer grasp of how predicted probabilities can be transformed into **log-odds(logits)** and regressed against the observed outcome to obtain the calibration intercept and slope. A *perfectly calibrated model* has an **intercept of 0 and a slope of 1**; I also learnt the biostatistical terminology of *calibration-in-the-large* for the intercept and *Cox calibration regression* for the calibration slope. This was probably the most useful conceptual takeaway from today's modelling work.
