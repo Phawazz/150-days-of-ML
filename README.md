@@ -47,3 +47,13 @@ I corrected this by keeping the XGBoost model completely frozen and generating 1
 
 ## Day 010
 Today I went back through HyperSense v1.2 to update and cross-check the downstream metrics affected by the audited v1.1 threshold re-work, ensuring the corrected values were consistently reflected across the relevant notebooks and comparisons. With that cleanup done, the remaining work for the project is stage 3: Clinical Enrichment, using Nigerian data only. Tomorrow, we build.
+
+## Day 011
+Spent some time restructuring the objectives for Stage 3 to ensure methodological consistency throughout the project. The need for reproducibility also meant being more deliberate with each decision and taking extra care to ensure the methodology could be consistently applied and replicated.
+
+## Day 012
+Travelled to Lagos for the MedVerge conference, convened by Dr Abiodun Aderemi, founder and CEO of Helpmum, Dobic Health, and SmartMRS. It was a great opportunity to gain some exposure to the current state of healthtech in Nigeria and the companies and people shaping the industry. The session that stood out to me the most was the interview with Dr Abiodun. It was particularly interesting to hear his story and understand his approach to building and solving problems.
+
+## Day 013
+Another equally busy and tasking day. I couldn't get anything substantial done.
+
