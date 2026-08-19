@@ -57,3 +57,8 @@ Travelled to Lagos for the MedVerge conference, convened by Dr Abiodun Aderemi, 
 ## Day 013
 Another equally busy and tasking day. I couldn't get anything substantial done.
 
+## Day 014
+Spent most of the day working through the methodological decisions for Stage 3, particularly around the `HTN/HTN_DR` outcome construction, substantial missingness in variables such as the laboratory measurements, potential leakage from hypertension-management variables, and deciding which additional clinical predictors to include. A lot of the work has been necessary to make sure the analysis is methodologically sound and reproducible, but it has also meant that the actual technical work has been delayed more than I initially expected. At this point, most of the groundwork and decision-making is finally out of the way, so the real implementation can begin.
+
+## Day 015
+Started implementing Stage 3 by loading the REMAH dataset, mapping the variables needed for the outcome and final predictor sets, and auditing their coding, missingness, and ranges. I was able to confirm that the five clinic BP measurements have very little percentage of missingness, identified a few invalid categorical codes and unusual continuous values to investigate, and began constructing the Stage 3 hypertension outcome from the five-reading BP average and antihypertensive treatment status.
