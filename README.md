@@ -62,3 +62,9 @@ Spent most of the day working through the methodological decisions for Stage 3, 
 
 ## Day 015
 Started implementing Stage 3 by loading the REMAH dataset, mapping the variables needed for the outcome and final predictor sets, and auditing their coding, missingness, and ranges. I was able to confirm that the five clinic BP measurements have very little percentage of missingness, identified a few invalid categorical codes and unusual continuous values to investigate, and began constructing the Stage 3 hypertension outcome from the five-reading BP average and antihypertensive treatment status.
+
+## Day 016
+---
+
+## Day 017
+It’s relieving to finally come to an end of this project. Funny how what actually took most of the time was the data cleaning, feature engineering, and methodological decisions rather than the code itself. From constructing the hypertension outcome from the five BP readings and treatment status, to defining the final predictor sets, handling missingness, comparing the parsimonious and clinically enriched XGBoost models, and always ensuring the notebooks are well-organized for quick review by anyone or even future me. In the end, the enriched model showed better discrimination and detection, while the simpler model was slightly better calibrated. It’s been quite the process, but I’ve learned a lot from working through the details rather than just getting the model to run. Next is to work on the abstract and full manuscript. & some other cool technical work.
