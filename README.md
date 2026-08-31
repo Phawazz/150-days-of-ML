@@ -68,3 +68,13 @@ Started implementing Stage 3 by loading the REMAH dataset, mapping the variables
 
 ## Day 017
 It’s relieving to finally come to an end of this project. Funny how what actually took most of the time was the data cleaning, feature engineering, and methodological decisions rather than the code itself. From constructing the hypertension outcome from the five BP readings and treatment status, to defining the final predictor sets, handling missingness, comparing the parsimonious and clinically enriched XGBoost models, and always ensuring the notebooks are well-organized for quick review by anyone or even future me. In the end, the enriched model showed better discrimination and detection, while the simpler model was slightly better calibrated. It’s been quite the process, but I’ve learned a lot from working through the details rather than just getting the model to run. Next is to work on the abstract and full manuscript. & some other cool technical work.
+
+## BREAK: Day 017 -- Day 025
+Necessary pause due to a crucial examination I needed to prepare adequately for. 
+
+## Day 026
+Joined a 3-month AI engineering bootcamp a week ago and this is particularly an exciting stuff especially cos of my plans to go beyond classical machine learning and deeper into deep learning, computer vision, LLMs, RAG, Agentic AI, MLOps, and AI engineering at large. Hoping to make the best of it. Hence, this saturday, I started my backend journey with the *[FastAPI documentation](https://fastapi.tiangolo.com/tutorial/first-steps/)*, with the aim of working on the backend for the deployment of the computer vision project which my team is currently working on as our first project. A significant portion of this day was also spent contributing to the execution of a youth co-creation event at my school.
+
+## Day 027
+Zero meaningful technical progress today. Not ideal, but it happens. I didn't manage my time as well as I should have, so I'll take the lesson and get back at it tomorrow.
+
