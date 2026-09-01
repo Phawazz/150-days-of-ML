@@ -69,7 +69,7 @@ Started implementing Stage 3 by loading the REMAH dataset, mapping the variables
 ## Day 017
 It’s relieving to finally come to an end of this project. Funny how what actually took most of the time was the data cleaning, feature engineering, and methodological decisions rather than the code itself. From constructing the hypertension outcome from the five BP readings and treatment status, to defining the final predictor sets, handling missingness, comparing the parsimonious and clinically enriched XGBoost models, and always ensuring the notebooks are well-organized for quick review by anyone or even future me. In the end, the enriched model showed better discrimination and detection, while the simpler model was slightly better calibrated. It’s been quite the process, but I’ve learned a lot from working through the details rather than just getting the model to run. Next is to work on the abstract and full manuscript. & some other cool technical work.
 
-## BREAK: Day 017 -- Day 025
+## BREAK: Day 018 -- Day 025
 Necessary pause due to a crucial examination I needed to prepare adequately for. 
 
 ## Day 026
@@ -78,3 +78,5 @@ Joined a 3-month AI engineering bootcamp a week ago and this is particularly an 
 ## Day 027
 Zero meaningful technical progress today. Not ideal, but it happens. I didn't manage my time as well as I should have, so I'll take the lesson and get back at it tomorrow.
 
+## Day 028
+Updated the HyperSense README to accurately document the evolution from v1.0 to v1.1, correcting historical methodology, threshold selection, limitations, data access, and the research roadmap following acquisition of the Nigerian REMAH dataset. I also began work on the first TAG AI Engineering Bootcamp project: reviewed the existing ML/inference architecture, created the initial `backend/` structure on a feature branch, and staged the files for later implementation. This helped clarify the Git collaboration workflow and how the ML inference layer, FastAPI backend, and Streamlit frontend will integrate.
